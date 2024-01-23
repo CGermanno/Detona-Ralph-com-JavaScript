@@ -25,23 +25,24 @@
 }
 
 .panel {
-    padding: 25px 20px 50px;
+    padding: 25px 20px 10px;
     background: 
     linear-gradient(335deg, #b00 23px, transparent 23px),
     linear-gradient(155deg, #d00 23px, transparent 23px),
     linear-gradient(335deg, #b00 23px, transparent 23px),
     linear-gradient(155deg, #d00 23px, transparent 23px);
     background-color: rgb(122, 122, 122);
-    background-size: 58px 58px;
+    background-size: 50px 58px;
     background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
     margin-top: 1rem;
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
 
 .panel2 {
-    padding: 10px 20px 330px;
+    padding: 10px 20px 92px;
     background: 
     linear-gradient(335deg, #b00 23px, transparent 23px),
     linear-gradient(155deg, #d00 23px, transparent 23px),
@@ -56,11 +57,12 @@
 }
 
 .square, .square-broken, .square-ok {
-    height: 150px;
-    width: 150px;
+    height: 5vw; /* x% da largura da tela */
+    width: 5vw; /* x% da largura da tela */
     border: 1px solid hwb(0 0% 100%);
     background-color: #0fe69e;
 }
+
 
 .square-broken {
 
