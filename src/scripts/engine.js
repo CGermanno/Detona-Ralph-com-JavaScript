@@ -13,7 +13,7 @@ const state = {
         gameVelocity: 1000, // Velocidade do jogo (intervalo para exibir quadrados inimigos)
         hitposition: 0, // Posição do quadrado que precisa ser clicado
         result: 0, // Pontuação do jogador
-        currenTime: 60, // Tempo inicial para a contagem regressiva
+        currenTime: 6000000, // Tempo inicial para a contagem regressiva
     },
 
     // Ações ou timers associados ao jogo
